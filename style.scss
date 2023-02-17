@@ -87,9 +87,7 @@ ul {
     display: none;
   }
 
-  .hide-on-mobile {
-    display: none;
-  }
+  
 
   .hide-on-desktop {
     margin-left: 16px;
@@ -254,6 +252,10 @@ ul {
     height: 180px;
   }
 
+  .hide-on-mobile {
+    display: none;
+  }
+
 }
 
 /*############ for-tablet-portrait-up ##############*/
@@ -263,9 +265,7 @@ ul {
     padding-left: 41px;
   }
 
-  .hide-on-desktop {
-    display: none;
-  }
+  
 
   header {
     width: 98%;
@@ -416,5 +416,9 @@ ul {
 
   footer {
     height: 122px;
+  }
+
+  .hide-on-desktop {
+    display: none;
   }
 }
