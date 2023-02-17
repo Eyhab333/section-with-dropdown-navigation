@@ -73,6 +73,187 @@ ul {
 
 /*##### for-phone-only ##########*/
 @media (max-width: 599px) {
+  body {
+    padding-top: 16px;
+  }
+
+  header {
+    width: 90%;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    display: none;
+  }
+
+  .hide-on-mobile {
+    display: none;
+  }
+
+  .hide-on-desktop {
+    margin-left: 16px;
+    margin-bottom: 24px;
+  }
+
+  .logo-and-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .logo {
+    width: 83.5px;
+    height: 26.58px;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 62px;
+  }
+
+  nav a {
+    width: 20%;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #686868;
+  }
+
+  a + a {
+    margin-left: 40px;
+  }
+
+  .features {
+    position: relative;
+  }
+
+  .features::after {
+    content: "";
+    background-image: url(./images/icon-arrow-down.svg);
+    background-size: cover;
+    width: 8px;
+    height: 4px;
+    position: absolute;
+    right: -15px;
+    top: 7px;
+  }
+
+  .company {
+    position: relative;
+  }
+
+  .company::after {
+    content: "";
+    background-image: url(./images/icon-arrow-down.svg);
+    background-size: cover;
+    width: 8px;
+    height: 4px;
+    position: absolute;
+    right: -15px;
+    top: 7px;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .login {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #686868;
+    margin-right: 40px;
+    background-color: transparent;
+  }
+
+  .register {
+    border: 1.5px solid #686868;
+    border-radius: 14px;
+    background-color: transparent;
+    padding: 13px 23px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #686868;
+  }
+
+  main {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .first-section {
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .first-section h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    color: #151515;
+    margin-bottom: 18px;
+    max-width: 350px;
+  }
+  .first-section p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #686868;
+    margin-bottom: 31px;
+    max-width: 340px;
+  }
+  .first-section button {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -0.25px;
+    color: #fafafa;
+    margin-bottom: 48px;
+    background: #151515;
+    border-radius: 15px;
+    padding: 15px 29px;
+  }
+
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+  }
+
+  li {
+    width: 22%;
+  }
+
+  .audiophile {
+    width: 17%;
+  }
+
+  .second-section {
+    width: 100%;
+    margin-bottom: 47px;
+  }
+
+  footer {
+    height: 180px;
+  }
+
 }
 
 /*############ for-tablet-portrait-up ##############*/
@@ -80,6 +261,10 @@ ul {
   body {
     padding-top: 21px;
     padding-left: 41px;
+  }
+
+  .hide-on-desktop {
+    display: none;
   }
 
   header {
@@ -227,5 +412,9 @@ ul {
 
   .second-section {
     width: 40%;
+  }
+
+  footer {
+    height: 122px;
   }
 }
