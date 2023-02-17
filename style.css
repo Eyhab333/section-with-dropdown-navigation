@@ -84,16 +84,14 @@ ul {
   .hide-on-desktop {
     margin-left: 16px;
     margin-bottom: 24px;
+    width: 83.5px;
+    height: 26.58px;
   }
   .logo-and-nav {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-  }
-  .logo {
-    width: 83.5px;
-    height: 26.58px;
   }
   nav {
     display: flex;
@@ -245,10 +243,6 @@ ul {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-  }
-  .logo {
-    width: 83.5px;
-    height: 26.58px;
   }
   nav {
     display: flex;
